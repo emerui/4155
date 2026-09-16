@@ -1,6 +1,6 @@
 #!/bin/bash
  
-#SBATCH --partition=Orion
+#SBATCH --partition=Centaurus
 #SBATCH --job-name=basic_slurm_job
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
