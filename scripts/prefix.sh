@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=centaurus
+#SBATCH --partition=Centaurus
 #SBATCH --job-name=prefix
 #SBATCH --output=prefix-%j.out
 #SBATCH --time=00:10:00
