@@ -1,11 +1,11 @@
 idk where to put this; following compiles for -00, -02, -03 on algorithm prefixSum
-[eruizalm@gal-i9 4155]$ cat
-^C
+
 [eruizalm@gal-i9 4155]$ ls
 data              prefix-22005.out  report.pdf       slurm-21872.out  src
 Makefile          prefix-22006.out  scripts          slurm-22002.out
 prefix-22004.out  README.md         slurm-21871.out  slurm-22003.out
 
+// compiled for -00
 [eruizalm@gal-i9 4155]$ cat prefix-22004.out
 Result: 1309579395
 Report of int, n = 1000000
@@ -32,6 +32,7 @@ Report of double, n = 100000000
 Rate: 1.52077e+08 elements/s
 Average: 0.65756 s Median: 0.657426 s Min: 0.657294 s Max: 0.658369 s
 
+//compiled for -02
 [eruizalm@gal-i9 4155]$ cat prefix-22005.out
 Result: 1309579395
 Report of int, n = 1000000
@@ -58,6 +59,7 @@ Report of double, n = 100000000
 Rate: 3.9205e+08 elements/s
 Average: 0.25507 s Median: 0.25503 s Min: 0.254923 s Max: 0.255567 s
 
+//compiled for -03
 [eruizalm@gal-i9 4155]$ cat prefix-22006.out
 Result: 1309579395
 Report of int, n = 1000000
