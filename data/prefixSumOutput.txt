@@ -1,0 +1,85 @@
+idk where to put this; following compiles for -00, -02, -03 on algorithm prefixSum
+[eruizalm@gal-i9 4155]$ cat
+^C
+[eruizalm@gal-i9 4155]$ ls
+data              prefix-22005.out  report.pdf       slurm-21872.out  src
+Makefile          prefix-22006.out  scripts          slurm-22002.out
+prefix-22004.out  README.md         slurm-21871.out  slurm-22003.out
+
+[eruizalm@gal-i9 4155]$ cat prefix-22004.out
+Result: 1309579395
+Report of int, n = 1000000
+Rate: 1.622e+08 elements/s
+Average: 0.00616522 s Median: 0.00616606 s Min: 0.00615986 s Max: 0.00617119 s
+Result: 1946133992
+Report of int, n = 10000000
+Rate: 1.61121e+08 elements/s
+Average: 0.0620652 s Median: 0.0620596 s Min: 0.0620135 s Max: 0.0621865 s
+Result: 588724262
+Report of int, n = 100000000
+Rate: 1.61183e+08 elements/s
+Average: 0.620412 s Median: 0.620261 s Min: 0.620121 s Max: 0.621199 s
+Result: 1.07427e+15
+Report of double, n = 1000000
+Rate: 1.53775e+08 elements/s
+Average: 0.00650302 s Median: 0.00650292 s Min: 0.00649569 s Max: 0.00650784 s
+Result: 1.07376e+16
+Report of double, n = 10000000
+Rate: 1.52157e+08 elements/s
+Average: 0.0657216 s Median: 0.0657149 s Min: 0.0656941 s Max: 0.0657971 s
+Result: 1.07367e+17
+Report of double, n = 100000000
+Rate: 1.52077e+08 elements/s
+Average: 0.65756 s Median: 0.657426 s Min: 0.657294 s Max: 0.658369 s
+
+[eruizalm@gal-i9 4155]$ cat prefix-22005.out
+Result: 1309579395
+Report of int, n = 1000000
+Rate: 2.81576e+09 elements/s
+Average: 0.000355144 s Median: 0.000353675 s Min: 0.000352767 s Max: 0.000361711 s
+Result: 1946133992
+Report of int, n = 10000000
+Rate: 1.69958e+09 elements/s
+Average: 0.00588379 s Median: 0.00588055 s Min: 0.00586221 s Max: 0.00590422 s
+Result: 588724262
+Report of int, n = 100000000
+Rate: 1.69962e+09 elements/s
+Average: 0.0588368 s Median: 0.0587968 s Min: 0.0586193 s Max: 0.0591043 s
+Result: 1.07427e+15
+Report of double, n = 1000000
+Rate: 4.0749e+08 elements/s
+Average: 0.00245405 s Median: 0.00245368 s Min: 0.00245038 s Max: 0.0024607 s
+Result: 1.07376e+16
+Report of double, n = 10000000
+Rate: 3.92479e+08 elements/s
+Average: 0.0254791 s Median: 0.025477 s Min: 0.0254661 s Max: 0.0255086 s
+Result: 1.07367e+17
+Report of double, n = 100000000
+Rate: 3.9205e+08 elements/s
+Average: 0.25507 s Median: 0.25503 s Min: 0.254923 s Max: 0.255567 s
+
+[eruizalm@gal-i9 4155]$ cat prefix-22006.out
+Result: 1309579395
+Report of int, n = 1000000
+Rate: 2.81731e+09 elements/s
+Average: 0.000354949 s Median: 0.00035395 s Min: 0.000352688 s Max: 0.000359574 s
+Result: 1946133992
+Report of int, n = 10000000
+Rate: 1.69753e+09 elements/s
+Average: 0.0058909 s Median: 0.00588986 s Min: 0.00586875 s Max: 0.00591527 s
+Result: 588724262
+Report of int, n = 100000000
+Rate: 1.69699e+09 elements/s
+Average: 0.0589279 s Median: 0.0589175 s Min: 0.058683 s Max: 0.0591952 s
+Result: 1.07427e+15
+Report of double, n = 1000000
+Rate: 4.07747e+08 elements/s
+Average: 0.0024525 s Median: 0.00245255 s Min: 0.00244866 s Max: 0.00245506 s
+Result: 1.07376e+16
+Report of double, n = 10000000
+Rate: 3.92276e+08 elements/s
+Average: 0.0254923 s Median: 0.0254906 s Min: 0.025463 s Max: 0.0255173 s
+Result: 1.07367e+17
+Report of double, n = 100000000
+Rate: 3.91945e+08 elements/s
+Average: 0.255138 s Median: 0.255094 s Min: 0.254989 s Max: 0.255582 s

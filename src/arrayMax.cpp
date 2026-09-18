@@ -104,10 +104,11 @@ int main(){
     std::ofstream fout("../data/arrayMax.csv");
     fout << "inputSort,type,loopVersion,nSize,rate\n";
     fout.close();
+
+    //int and double arrays to be passed to maxArrayA() or B()
     std::vector<int> a(n); 
     std::vector<int> b(nTwo);
     std::vector<int> c(nThree);
-
     std::vector<double> aDouble(n);
     std::vector<double> bDouble(nTwo);
     std::vector<double> cDouble(nThree);
