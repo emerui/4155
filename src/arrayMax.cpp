@@ -127,13 +127,13 @@ int main(){
     //elapsed time, rate, average, max, min, median of random filled doubles with inner loop a
     randomSort(aDouble);
     std::vector<double> timeListaDouble = timer(aDouble, maxArrayA);
-    report<int>(timeListaDouble, "random", "double", "A", n);
+    report<double>(timeListaDouble, "random", "double", "A", n);
     randomSort(bDouble);
     std::vector<double> timeListbDouble = timer(bDouble, maxArrayA);
-    report<int>(timeListbDouble, "random", "double", "A", nTwo);
+    report<double>(timeListbDouble, "random", "double", "A", nTwo);
     randomSort(cDouble);
     std::vector<double> timeListcDouble = timer(cDouble, maxArrayA);
-    report<int>(timeListcDouble, "random", "double", "A", nThree);
+    report<double>(timeListcDouble, "random", "double", "A", nThree);
 
 
     //report of random filled ints with inner loop B
