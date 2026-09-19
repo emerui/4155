@@ -7,4 +7,4 @@
 #SBATCH --output=data/part1_results.out
 
 lscpu
-./src/array_max
+./src/arrayMax
