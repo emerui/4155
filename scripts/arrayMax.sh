@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=array_max
-#SBATCH --partition=centaurus
+#SBATCH --partition=Centaurus
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --time=00:05:00
