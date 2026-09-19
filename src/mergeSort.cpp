@@ -51,8 +51,6 @@ void mergeSortA(std::vector<int>& a){
         mergeSortA(c);
         mergeA(a, b, c);
     }
-
-
 }
 
 void mergeB (std::vector<int>& a, std::vector<int>& temporary, int left, int mid, int right){
