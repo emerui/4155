@@ -2,7 +2,8 @@ import networkx as nx
 import scipy.io as sp
 import networkit as nk
 
-## incomplete -u-
+## not working -3-
+## .mtx files crash
 
 NUM_NODES = 2**20                       
 AVG_DEGREE = 16

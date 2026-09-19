@@ -1,5 +1,9 @@
 all .cpp files compiled (unless otherwise stated) as 
 g++ -std=c++17 -O2 -Wall -Wextra [fileName].cpp -o hello
+## Part 1 arrayMax.cpp
+
+
+
 
 plot.py in /scripts ran as 
 python [fileName].py

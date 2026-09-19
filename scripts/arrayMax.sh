@@ -1,9 +1,10 @@
 #!/bin/bash
-
-#SBATCH --partition=Centaurus
-#SBATCH --job-name=cache_info
+#SBATCH --job-name=array_max
+#SBATCH --partition=centaurus
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --time=1:00:00
+#SBATCH --ntasks=1
+#SBATCH --time=00:05:00
+#SBATCH --output=data/part1_results.out
 
 lscpu
+./src/array_max
