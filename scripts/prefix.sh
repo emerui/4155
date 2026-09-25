@@ -1,11 +1,15 @@
 #!/bin/bash
 #SBATCH --partition=Centaurus
 #SBATCH --job-name=prefix
-#SBATCH --output=prefix-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
 #SBATCH --time=00:10:00
 
-cd ~/4155/src
+echo "===== O0 ====="
+./src/prefixSum-O0
 
-g++ -O0 prefixSum.cpp -o prefix
+echo "===== O2 ====="
+./src/prefixSum-O2
 
-./prefix
+echo "===== O3 ====="
+./src/prefixSum-O3

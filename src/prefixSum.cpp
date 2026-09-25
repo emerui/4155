@@ -11,7 +11,7 @@ template <typename T>
 T prefixSum(std::vector<T>& a) {
     T sum = 0;
 
-    for (int i = 0; i < a.size(); i++) {
+    for (size_t i = 0; i < a.size(); i++) {
         T current = a[i];
         a[i] = sum;
         sum += current;
@@ -20,7 +20,7 @@ T prefixSum(std::vector<T>& a) {
 }
 template <typename T>
 void randomFill(std::vector<T>& a){
-    for(int i = 0; i < a.size(); i++){
+    for(size_t i = 0; i < a.size(); i++){
         a[i] = rand();
     }
 

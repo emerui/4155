@@ -2,6 +2,10 @@ Setup for all kernels:
 all .cpp files compiled (unless otherwise stated) as 
 g++ -std=c++17 -O2 -Wall -Wextra [fileName].cpp -o hello
 
+To run on cluster example: 
+(from MakeFile)make src/prefixSum-00
+(.sh file)sbatch scripts/prefix.sh
+
 All .cpp files timed ran a number of 10 repititions
 
 The plot.py found in /scripts can be ran with the following command: 

@@ -8,8 +8,14 @@ all: $(TARGETS)
 src/arrayMax: src/arrayMax.cpp
 	$(CXX) $(CXXFLAGS) $< -o $@
 
-src/prefixSum: src/prefixSum.cpp
-	$(CXX) $(CXXFLAGS) $< -o $@
+src/prefixSum-O0: src/prefixSum.cpp
+	$(CXX) $(CXXFLAGS) -O0 $< -o $@
+
+src/prefixSum-O2: src/prefixSum.cpp
+	$(CXX) $(CXXFLAGS) -O2 $< -o $@
+
+src/prefixSum-O3: src/prefixSum.cpp
+	$(CXX) $(CXXFLAGS) -O3 $< -o $@
 
 src/matrixMult: src/matrixMult.cpp
 	$(CXX) $(CXXFLAGS) $< -o $@
