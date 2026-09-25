@@ -49,6 +49,13 @@ For the double randomly filled list, the elapsed time averaged 0.00247113 second
 
 For both search algorithms, it appears that the double filled array timed rates perform at a slower rate with a difference of a power of 10 existing between the two types of arrays. Between the two search algorithms, maxArrayA once again outperformed slightly but both behaved similarly in their comparisons between integer and double. 
 
+To plot the rate, I had the report method write into a CSV file which plot_arrayMax.py uses to visualize four different plots(Random sort, increasing sort, reverse-sort, bandwidth).
+L1d cache:                               1.1 MiB (36 instances)
+L1i cache:                               1.1 MiB (36 instances)
+L2 cache:                                36 MiB (36 instances)
+L3 cache:                                49.5 MiB (2 instances)
+
+
 
 
 

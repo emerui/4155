@@ -44,6 +44,7 @@ plt.legend()
 
 plt.title('Random sort rate against n.', fontsize = 20)
 plt.xscale('log')
+plt.savefig('../data/arrayMax_random.png')
 plt.show()
 
 ##increasing
@@ -90,6 +91,7 @@ plt.scatter(n,rate,color='y',  label='double B')
 plt.legend()
 plt.title('Increasing sort rate against n.', fontsize = 20)
 plt.xscale('log')
+plt.savefig('../data/arrayMax_increasing.png')
 plt.show()
 
 ###reverse
@@ -138,6 +140,7 @@ plt.scatter(n,rate,color='y',  label='double B')
 plt.legend()
 plt.title('Reverse sort rate against n.', fontsize = 20)
 plt.xscale('log')
+plt.savefig('../data/arrayMax_reverse.png')
 plt.show()
 
 ##bandwidth
@@ -158,7 +161,7 @@ plt.axvline(49.5 * 1024 * 1024, linestyle='--', label='L3 cache')
 plt.legend()
 plt.title('Bandwidth against array size n.', fontsize = 20)
 plt.xscale('log')
+plt.savefig('../data/arrayMax_bandwidth.png')
 plt.show()
-
 
 
