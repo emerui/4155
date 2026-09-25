@@ -64,6 +64,18 @@ L1i cache:                               1.1 MiB (36 instances)
 L2 cache:                                36 MiB (36 instances)
 L3 cache:                                49.5 MiB (2 instances)
 
+## Part 2 prefixSum.cpp
+
+5.3 (ChatGPT was used to organize the data results from the compilers into the following table)
+|Compiled with | Type   |    n = 10⁶ |    n = 10⁷ |    n = 10⁸ |
+| ------------ | ------ | ---------: | ---------: | ---------: |
+| **-O0**      | int    | 0.006009 s | 0.060219 s | 0.602005 s |
+| **-O0**      | double | 0.006542 s | 0.066260 s | 0.663208 s |
+| **-O2**      | int    | 0.000356 s | 0.005873 s | 0.058870 s |
+| **-O2**      | double | 0.002455 s | 0.025492 s | 0.255196 s |
+| **-O3**      | int    | 0.000544 s | 0.007040 s | 0.070380 s |
+| **-O3**      | double | 0.002454 s | 0.025496 s | 0.255063 s |
+
 
 
 
